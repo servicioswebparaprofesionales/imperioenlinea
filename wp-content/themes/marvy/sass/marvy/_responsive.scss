@@ -1,0 +1,82 @@
+/* Extra small screen / phone */
+@media( max-width: $grid-breakpoint-small - 1 ) {
+    .site-header .grid {
+        flex-direction: initial;
+    }
+
+    .home-feature-pages {
+        text-align: center;
+    }
+
+    .img-wrap {
+        display: inline-block;
+        max-width: 100%;
+    }
+
+    .post-box-style .grid-cell {
+        margin-bottom: 1.5rem;
+    }
+
+    .post-box-style .post {
+        width: 100%;
+        margin: 0 auto;
+
+        img {
+            width: 100%;
+        }
+    }
+
+    .entry-title {
+        font-size: 25px;
+    }
+
+    h1.entry-title {
+        font-size: 28px;
+    }
+
+    .fixed-header {
+        position: absolute;
+    }
+
+    .home-section h2 {
+        margin-bottom: 3rem;
+    }
+}
+
+
+/* Small screen / phone */
+@media (min-width: $grid-breakpoint-small) {
+    .home-banner.home-section {
+        padding: 7rem 0 6rem;
+    }
+}
+
+/* Medium screen / tablet */
+@media (min-width: $grid-breakpoint-medium) {
+    .home-banner.home-section {
+        padding: 7rem 0 6rem;
+    }
+}
+
+/* Large screen / desktop */
+@media (min-width: $grid-breakpoint-large) {
+    .home-banner.home-section {
+        padding: 13rem 0 11rem;
+    }
+
+    .home-banner {
+        font-size: 36px;
+    }
+
+    .about-excerpt,
+    .home-callout {
+        max-width: 68%;
+        margin-left: auto;
+        margin-right: auto;
+    }
+}
+
+/* Extra large screen / wide desktop */
+@media (min-width: $grid-breakpoint-extra-large) {
+
+}
