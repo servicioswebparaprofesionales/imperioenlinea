@@ -15,6 +15,7 @@
  */
 
 // ** Heroku Postgres settings - from Heroku Environment ** //
+var_dump($_ENV["DATABASE_URL"]);
 $db = parse_url($_ENV["DATABASE_URL"]);
 
 // ** MySQL settings - You can get this info from your web host ** //
